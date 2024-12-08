@@ -20,6 +20,10 @@ function genarateRandomWindows() {
         windows.style.top = `${y}px`;
 
         document.body.appendChild(windows);
+
+        // setTimeout(function () {
+        //     windows.parentNode.removeChild(windows);
+        // }, 5000)
     }, 100);
 }
 
